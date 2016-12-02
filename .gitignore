@@ -1,2 +1,4 @@
-/target/
-/executioninfo/
+/target/*
+/executioninfo/*
+/test-output/*
+
