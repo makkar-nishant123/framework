@@ -12,23 +12,23 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-     <maven.compiler.source>1.7</maven.compiler.source>
-  <maven.compiler.target>1.7</maven.compiler.target>
+     <maven.compiler.source>1.8</maven.compiler.source>
+  <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
  <dependencies>
           <dependency>
        	 <groupId>org.testng</groupId>
         	 <artifactId>testng</artifactId>
-        	 <version>6.1.1</version>
-           <scope>test</scope>
+        	 <version>6.9.10</version>
+           <scope>compile</scope>
           </dependency>
          <!-- Selenium -->
       	  <dependency>
                
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>2.53.0</version>
+        <version>2.53.1</version>
     
             </dependency>
          <!-- POI -->
@@ -100,7 +100,7 @@
               
               <configuration>
                 <testFailureIgnore>true</testFailureIgnore>
-                     <skipTests>true</skipTests>
+                     <skipTests>false</skipTests>
         
                 <suiteXmlFiles>
     						    <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>						    
@@ -113,8 +113,8 @@
    			 <version>3.0</version>                     
                            <configuration>
                                   <encoding>iso-8859-1</encoding>
-                                  <source>1.6</source>
-                                  <target>1.6</target>
+                                  <source>1.8</source>
+                                  <target>1.8</target>
                            </configuration>
                      </plugin>
                </plugins>
