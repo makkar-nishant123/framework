@@ -5,10 +5,9 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.Hashtable;
 
 import org.apache.log4j.Logger;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 import com.xavient.framework.util.Constants;
 import com.xavient.framework.util.Keywords_reflection;
 import com.xavient.framework.util.Skip;
@@ -26,7 +25,7 @@ public class googleSearchTest {
 	}
 @Test(dataProviderClass=TestCaseDataProvider.class,dataProvider="getDataForWebApplicationSuite")
 
-public void googleSearchTest(Hashtable<String,String> data) throws InterruptedException, IOException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException
+public void googleSearchTest1(Hashtable<String,String> data) throws InterruptedException, IOException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException
 {
 	
 	Xls_Reader xls = new Xls_Reader(Constants.SUITEWEBAPPLICATION_XLS_PATH);
