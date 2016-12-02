@@ -1,4 +1,6 @@
 /target/*
 /executioninfo/*
 /test-output/*
+./executioninfo/*
+./test-output/*
 
